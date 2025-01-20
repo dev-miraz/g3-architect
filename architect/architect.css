@@ -4,6 +4,54 @@
 .work-sans-font {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
+.display-flex {
+  display: flex;
+}
+.navbar{ justify-content: space-between;
+align-items: center;}
+
+.nav-item{list-style: none;
+margin-right: 30px;}
+
+.nav-link{text-decoration: none;
+font-weight:500;}
+
+.bg-light{background-color: rgba(255, 144, 14, 0.1);}
+
+.text-light-gray{color: rgba(114, 114, 114, 1);}
+
+.text-gray{color:rgba(66, 66, 66, 1);}
+
+.navbar , .banner{
+  width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+} 
+.banner-content{width: 850px;
+margin: 0 auto;
+margin-bottom: 50px;}
+.brand{font-weight: 700;
+font-size: 3rem;}
+.banner-title{font-weight: 700;
+font-size: 4rem;}
+
+.btn-primary{background-color: rgba(255, 144, 14, 1);
+color: white;
+border: none;
+padding: 20px 25px;
+font-size: 1.25rem;
+font-weight: 700;
+border-radius: 8px;}
+
+.banner-image{
+  width: 100%;}
+/* responsive-media-query */
+
+@media screen and (max-width:576px) {
+  .navbar , .navlinks{flex-direction: column;}
+  
+}
+
